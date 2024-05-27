@@ -1,11 +1,11 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "Juggernaut_X_RunDiffusion_Hyper.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "sd_xl_offset_example-lora_1.0.safetensors",
+            "None",
             0.1
         ],
         [
@@ -36,14 +36,10 @@
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
-    "default_styles": [
-        "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
-    ],
+    "default_styles": [],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "Juggernaut_X_RunDiffusion_Hyper.safetensors": "https://civitai.com/api/download/models/471120"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
